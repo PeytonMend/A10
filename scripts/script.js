@@ -20,7 +20,7 @@ let savedName = getCookie("visitorName");
 
 if (savedName !== "") {
     document.getElementById("welcome").textContent = "Welcome back, " + savedName + "!";
-    document.getElementById("message").textContent = "Glad to see you again.";
+    document.getElementById("message").textContent = "Welcome.";
     document.getElementById("nameForm").style.display = "none";
 } else {
     document.getElementById("nameForm").addEventListener("submit", function(event) {
